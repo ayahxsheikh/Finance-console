@@ -20,5 +20,12 @@ var sum = 0;
 
 for (i = 0; i < finances.length; i++) {
     var months = finances[i][1]; //no. of months
-    
+    sum += finances [i][1] //netTotal
 }
+
+
+
+
+//Ouput
+console.log(totalMonths);
+console.log(sum);
