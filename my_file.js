@@ -28,7 +28,9 @@ for (i = 0; i < finances.length; i++) {
 
     }
 
-
+//average
+    monthlySum = monthlyAvg / (finances.length -1);
+    totalAvg = monthlySum.toFixed(2);
 
 //Ouput
 
