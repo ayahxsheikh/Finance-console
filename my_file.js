@@ -36,3 +36,5 @@ for (i = 0; i < finances.length; i++) {
     console.log(`Total Months: ${totalMonths}`);
     console.log(`Total: ${netTotal}`);
     console.log(`Average Change: $ ${totalAvg}`);
+    console.log(`Greatest Increase in Profit: $${grProfit}`);
+    console.log(`Greatest Decrease in Profits: $${grLoss}`);
