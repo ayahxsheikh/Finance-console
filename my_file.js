@@ -23,14 +23,16 @@ for (i = 0; i < finances.length; i++) {
 
     //monthly average in profits
      for (j = 1; j < finances[i].length; j++) {
-            monthlyAvg += finances[j][1] - finances[i][1]; 
+            monthlySum += finances[j][1] - finances[i][1]; 
+            monthlyAvg = netTotal / finances.length -1;
+            totalAvg = monthlyAvg.toFixed(2);
+
         }
 
     }
 
-//average
-    monthlySum = monthlyAvg / (finances.length -1);
-    totalAvg = monthlySum.toFixed(2);
 
 //Ouput
-
+    console.log(`Total Months: ${totalMonths}`);
+    console.log(`Total: ${netTotal}`);
+    console.log(`Average Change: $ ${totalAvg}`);
