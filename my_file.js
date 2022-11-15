@@ -1,8 +1,7 @@
 /* PSEUDO Code
 total no of months is length of array
 for loop array 
-accumalate amount inside array using nested for loop
-
+nested loop for average and use j[i][1]
 */
 
 /* Heading */
@@ -19,12 +18,12 @@ var grLoss = 0;
 //totalMonths
 
 for (i = 0; i < finances.length; i++) {
-    var months = finances[i][1]; //no. of months
+    var figures = finances[i][1]; //no. of months
     netTotal += finances [i][1] //netTotal
 
-    for (j = 1; j < finances[i].length; j++) { //monthly change in profits
-
-       // console.log(finances[j]);
+    //monthly change in profits
+    for (j = 1; j < finances[i].length; j++) { //j starts from 2nd sub-array(feb10)
+        monthlyChange
     }
 }
 
