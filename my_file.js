@@ -15,15 +15,16 @@ var monthlyChange = 0;
 var avChange = 0;
 var grProfit = 0;
 var grLoss = 0; 
-var sum = 0;
+
 //totalMonths
 
 for (i = 0; i < finances.length; i++) {
     var months = finances[i][1]; //no. of months
-    sum += finances [i][1] //netTotal
+    netTotal += finances [i][1] //netTotal
 
     for (j = 1; j < finances[i].length; j++) { //monthly change in profits
-        console.log(finances[j]);
+
+       // console.log(finances[j]);
     }
 }
 
@@ -32,4 +33,4 @@ for (i = 0; i < finances.length; i++) {
 
 //Ouput
 console.log(totalMonths);
-console.log(sum);
+console.log(netTotal);
