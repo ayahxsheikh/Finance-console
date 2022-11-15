@@ -11,10 +11,7 @@ it requires
 n/a
 
 ## Usage 
-n/a 
-
-
-
+https://ayahxsheikh.github.io/Finance-console/ 
 
 
 ## Credits
