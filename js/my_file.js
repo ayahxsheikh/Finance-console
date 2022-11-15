@@ -1,8 +1,3 @@
-/* PSEUDO Code
-total no of months is length of array
-for loop array 
-nested loop for average and use j[i][1]
-*/
 
 /* Heading */
 console.log('Financial Analysis');
@@ -25,11 +20,12 @@ for (i = 0; i < finances.length; i++) {
      for (j = 1; j < finances[i].length; j++) {
             monthlySum += finances[j][1] - finances[i][1]; 
             monthlyAvg = netTotal / finances.length -1;
-            totalAvg = monthlyAvg.toFixed(2);
-
+            totalAvg = monthlyAvg.toFixed(2); 
+            //used montlySum to assign totalAvg to 2 decimal places.
         }
-
     }
+
+    
 
 
 //Ouput
