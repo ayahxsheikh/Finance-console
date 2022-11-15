@@ -3,6 +3,8 @@
 ## Description 
 This challenge aims to assess the JavaScript fundamentals covered in the course so far.
 
+I have conducted my work for this project in an additional js file under 'my_file.js'.
+
 The main task is to write JavaScript code that analyzes the records to calculate each of the following:
 
 The total number of months included in the dataset.
