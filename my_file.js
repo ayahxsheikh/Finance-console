@@ -9,7 +9,7 @@ accumalate amount inside array using nested for loop
 console.log('Financial Analysis');
 
 /* Gloobal Variables */
-var totalMonths = finances.length; /*console.log(totalMonths);*/
+var totalMonths = finances.length; 
 var netTotal = 0;
 var monthlyChange = 0;
 var avChange = 0;
@@ -21,6 +21,10 @@ var sum = 0;
 for (i = 0; i < finances.length; i++) {
     var months = finances[i][1]; //no. of months
     sum += finances [i][1] //netTotal
+
+    for (j = 0; j < finances[i].length; j++) { //monthly change in profits
+
+    }
 }
 
 
