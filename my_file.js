@@ -16,4 +16,9 @@ var avChange = 0;
 var grProfit = 0;
 var grLoss = 0; 
 
+//totalMonths
 
+for (i = 0; i < finances.length; i++) {
+    var months = finances[i][1]; //no. of months
+    
+}
