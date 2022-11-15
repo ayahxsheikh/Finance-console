@@ -22,8 +22,8 @@ for (i = 0; i < finances.length; i++) {
     var months = finances[i][1]; //no. of months
     sum += finances [i][1] //netTotal
 
-    for (j = 0; j < finances[i].length; j++) { //monthly change in profits
-
+    for (j = 1; j < finances[i].length; j++) { //monthly change in profits
+        console.log(finances[j]);
     }
 }
 
