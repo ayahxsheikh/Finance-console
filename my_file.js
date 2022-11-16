@@ -37,7 +37,7 @@ for (var i = 0; i < finances.length; i++) {
                 grMonth = profitMonth;
                 grProfit = grAmount;
             }
-
+        }
     
      //The greatest decrese in profits (date and amount) over the period, same aqs above with profits but using less than operator.       
         var lossMonth = '';
@@ -58,4 +58,4 @@ for (var i = 0; i < finances.length; i++) {
     console.log(`Total: ${netTotal}`);
     console.log(`Average Change: $ ${totalAvg}`);
     console.log(`Greatest Increase in Profit: (${grMonth}) - $${grProfit}`);
-    console.log(`Greatest Decrease in Profits: $${grLoss}`);
+    console.log(`Greatest Decrease in Losses: (${grLossMonth}) -$${grLoss}`);
