@@ -11,7 +11,7 @@ var totalAvg = 0;
 var grProfit = 0;
 var grMonth = '';
 var grLoss = 0; 
-var lossMonth = '';
+var grLossMonth = '';
 
 //totalMonths
 
@@ -38,6 +38,18 @@ for (var i = 0; i < finances.length; i++) {
                 grProfit = grAmount;
             }
 
+    
+     //The greatest decrese in profits (date and amount) over the period.       
+        var lossMonth = '';
+        var lossAmount;
+        for (i = 0; i < finances.length; i++) {
+            lossMonth = finances[i][0];
+            lossAmount = finances[i][1];
+
+            if(grLoss >= lossAmount){
+                grLossMonth = lossMonth;
+                grLoss = lossAmount;
+            }
      } 
 
 
