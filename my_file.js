@@ -25,7 +25,9 @@ for (i = 0; i < finances.length; i++) {
         }
     }
 
-    
+    if (((finances[j][1]) - (finances[i][1])) > grProfit) {
+        grProfit = ((finances[j][1]) - (finances[i][1]));
+    } 
 
 
 //Ouput
