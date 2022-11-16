@@ -39,7 +39,7 @@ for (var i = 0; i < finances.length; i++) {
             }
 
     
-     //The greatest decrese in profits (date and amount) over the period.       
+     //The greatest decrese in profits (date and amount) over the period, same aqs above with profits but using less than operator.       
         var lossMonth = '';
         var lossAmount;
         for (i = 0; i < finances.length; i++) {
