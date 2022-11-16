@@ -34,7 +34,8 @@ for (var i = 0; i < finances.length; i++) {
             grAmount = finances[i][1];
 
             if(grProfit <= grAmount){
-
+                grMonth = profitMonth;
+                grProfit = grAmount;
             }
 
      } 
@@ -44,5 +45,5 @@ for (var i = 0; i < finances.length; i++) {
     console.log(`Total Months: ${totalMonths}`);
     console.log(`Total: ${netTotal}`);
     console.log(`Average Change: $ ${totalAvg}`);
-    console.log(`Greatest Increase in Profit: $${grProfit}`);
+    console.log(`Greatest Increase in Profit: (${grMonth}) - $${grProfit}`);
     console.log(`Greatest Decrease in Profits: $${grLoss}`);
